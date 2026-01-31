@@ -280,7 +280,7 @@ Due to dashboard constraints, these insights are **documented and visualized ext
 <img width="974" height="371" alt="AI insights 1" src="https://github.com/user-attachments/assets/83ba37c2-1280-448b-a2e3-3c90366b364c" />
 <img width="926" height="446" alt="AI insights 2" src="https://github.com/user-attachments/assets/e0f48f1d-c26d-4afe-b2ea-a00b9b54b7b3" />
 <img width="917" height="382" alt="AI insights 3" src="https://github.com/user-attachments/assets/3cdd5fd5-a9b4-40a3-85f6-59303d587fc7" />
-
+<img width="1596" height="458" alt="AI driven insights" src="https://github.com/user-attachments/assets/f26176c8-c9a7-485b-8f92-de3278b36ee8" />
 ---
 
 ## ✅ Final Outcome
