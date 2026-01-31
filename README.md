@@ -71,7 +71,7 @@ The project follows the **Databricks Medallion Architecture**, ensuring scalabil
 
 ### 📌 Architecture Diagram
 
-> Add your Medallion Architecture / pipeline diagram below
+[Medallion Architecture](Medallion Architecture.png)
 
 ## 🥉 Bronze Layer – Raw Data Ingestion
 
@@ -90,8 +90,8 @@ The Bronze layer represents the **raw source of truth** for the system.
 ### Output Table
 - `bronze_heart_disease`
 
-📸 *Add Bronze layer table screenshot here*
-
+[Bronze Layer](bronze_layer_table.png)
+[Bronze Layer schema](bronze_schema.png)
 ---
 
 ## 🥈 Silver Layer – Data Cleaning & Standardization
@@ -113,7 +113,7 @@ The Silver layer prepares data for analytics and machine learning by applying **
 ### Output Table
 - `silver_heart_disease`
 
-📸 *Add Silver layer transformation screenshot here*
+[Silver Layer](silver_heart_disease_table.png)
 
 ---
 
@@ -138,7 +138,7 @@ This table represents the **final cleaned clinical view** of patient data.
 ### Output Table
 - `gold_heart_disease`
 
-📸 *Add Gold clinical table screenshot here*
+[Gold Heart Disease](gold_heart_disease.png)
 
 ---
 
@@ -161,7 +161,7 @@ Clinically meaningful features are engineered to enhance model performance and i
 ### Output Table
 - `gold_heart_feature_details`
 
-📸 *Add feature engineering output screenshot here*
+[Gold Heart Feature Details](gold_heart_feature_details.png)
 
 ---
 
@@ -177,7 +177,7 @@ This table converts clinical features into **numerical vectors** suitable for ma
 ### Output Table
 - `gold_heart_features`
 
-📸 *Add ML feature vector screenshot here*
+[Gold Heart Features](gold_heart_features.png)
 
 ---
 
@@ -198,8 +198,8 @@ This table converts clinical features into **numerical vectors** suitable for ma
 - Random Forest selected as the **champion model**
 - Achieved the highest AUC score
 
-📸 *Add MLflow experiment comparison screenshot here*
-
+[Logical Regression Model](logical_regression.png)
+[Random Forest Model](random_forest.png)
 ---
 
 ## 🔍 Feature Importance & Explainability
@@ -219,7 +219,7 @@ Feature importance analysis was performed to understand **clinical drivers of he
 - Supports clinical decision-making
 - Enhances transparency
 
-📸 *Add feature importance chart screenshot here*
+[Feature Importance](Feature importance chart.png)
 
 ---
 
@@ -239,7 +239,7 @@ Predictions are stored as a governed Delta table for analytics and reporting.
 ### Output Table
 - `gold_heart_risk_predictions`
 
-📸 *Add prediction output screenshot here*
+[Gold Heart Risk Prediction](gold_heart_risk_predictions.png)
 
 ---
 
@@ -260,7 +260,7 @@ An interactive dashboard was built using **Databricks SQL**.
 - Supports data-driven healthcare decisions
 - Provides an executive-level overview
 
-📸 *Add dashboard screenshots here*
+[Final Dashboard](Final dashboards.png)
 
 ---
 
@@ -274,8 +274,9 @@ Based on model outputs and feature importance, AI-driven insights were generated
 
 Due to dashboard constraints, these insights are **documented and visualized externally**, ensuring clarity without compromising dashboard stability.
 
-📸 *Add AI insights illustration here*
-
+[AI Insights 1](AI insights 1.png)
+[AI Insights 2](AI insights 2.png)
+[AI Insights 3](AI insights 3.png)
 ---
 
 ## ✅ Final Outcome
