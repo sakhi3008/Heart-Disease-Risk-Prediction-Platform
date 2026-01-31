@@ -266,6 +266,36 @@ An interactive dashboard was built using **Databricks SQL**.
 <img width="1395" height="714" alt="Final dashboards" src="https://github.com/user-attachments/assets/23b9e757-85fc-4e67-8615-22c7421bb5e7" />
 
 ---
+## 🔍 Key Insights from the Dashboard
+
+👥 **Gender-wise Risk Pattern**  
+The analysis shows that **male patients account for a higher proportion of high-risk cases**, whereas female patients are more concentrated in the low to medium risk categories. This indicates gender as a notable risk differentiator.
+
+🎂 **Impact of Age on Heart Disease Risk**  
+- **Middle-aged and senior patients** exhibit a significantly higher presence of **medium and high risk levels**.  
+- **Younger individuals** are largely observed in the **low-risk group**, reinforcing age as a key contributing factor.
+
+🩺 **Role of Blood Pressure**  
+Patients with **high blood pressure** demonstrate a marked increase in heart disease risk compared to those with normal or elevated BP levels, emphasizing BP as a critical clinical indicator.
+
+🫀 **Blocked Vessels vs Risk Trend**  
+A clear upward trend is observed where the **average risk percentage increases with the number of blocked vessels**, confirming a strong positive relationship between vessel blockage severity and heart disease risk.
+
+📈 **Risk Level Distribution**  
+While **low-risk patients form the largest group**, a considerable share of the population falls under **medium and high risk**, indicating the need for early diagnosis and preventive care.
+
+🧠 **Top Clinical Drivers of Risk**  
+Feature importance analysis highlights the following as the **most influential factors** in heart disease risk prediction:
+- Number of major vessels blocked  
+- Maximum heart rate achieved  
+- Age  
+- Blood pressure levels  
+
+### 📝 Key Takeaway
+
+This analysis demonstrates that age, blood pressure, and vessel blockage play a dominant role in determining heart disease risk, with older and male patients showing higher vulnerability.
+
+---
 
 ## 🧠 AI-Driven Insights
 
@@ -281,6 +311,21 @@ Due to dashboard constraints, these insights are **documented and visualized ext
 <img width="926" height="446" alt="AI insights 2" src="https://github.com/user-attachments/assets/e0f48f1d-c26d-4afe-b2ea-a00b9b54b7b3" />
 <img width="917" height="382" alt="AI insights 3" src="https://github.com/user-attachments/assets/3cdd5fd5-a9b4-40a3-85f6-59303d587fc7" />
 <img width="1596" height="458" alt="AI driven insights" src="https://github.com/user-attachments/assets/f26176c8-c9a7-485b-8f92-de3278b36ee8" />
+
+---
+
+## 🔮 How the Risk Prediction Works
+
+The heart disease risk prediction is built using a **data-driven machine learning approach**:
+
+- Patient clinical data such as **age, gender, blood pressure, cholesterol, heart rate, and number of blocked vessels** is used as input.
+- The dataset is **cleaned, preprocessed, and transformed** to ensure consistency and accuracy.
+- Important features influencing heart disease risk are identified through **feature importance analysis**.
+- A **classification model** is trained to categorize patients into **Low, Medium, or High Risk** groups based on learned patterns.
+- The predicted risk levels are then visualized using an **interactive analytics dashboard**, enabling easy interpretation of results.
+
+This approach allows the system not only to **predict risk**, but also to **explain the contributing factors** behind each prediction.
+
 ---
 
 ## ✅ Final Outcome
