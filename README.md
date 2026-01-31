@@ -71,7 +71,8 @@ The project follows the **Databricks Medallion Architecture**, ensuring scalabil
 
 ### 📌 Architecture Diagram
 
-[Medallion Architecture](Medallion Architecture.png)
+<img width="1693" height="470" alt="Medallion Architecture" src="https://github.com/user-attachments/assets/a412a185-7973-43f8-87bf-6408d92a8911" />
+
 
 ## 🥉 Bronze Layer – Raw Data Ingestion
 
@@ -90,8 +91,9 @@ The Bronze layer represents the **raw source of truth** for the system.
 ### Output Table
 - `bronze_heart_disease`
 
-[Bronze Layer](bronze_layer_table.png)
-[Bronze Layer schema](bronze_schema.png)
+<img width="850" height="226" alt="bronze_layer_table" src="https://github.com/user-attachments/assets/9e30f24c-f112-4101-823c-370d25d1144d" />
+<img width="847" height="417" alt="bronze_schema" src="https://github.com/user-attachments/assets/c5d28a4e-e54d-46b0-89b8-ec138fb9fea7" />
+
 ---
 
 ## 🥈 Silver Layer – Data Cleaning & Standardization
@@ -113,7 +115,7 @@ The Silver layer prepares data for analytics and machine learning by applying **
 ### Output Table
 - `silver_heart_disease`
 
-[Silver Layer](silver_heart_disease_table.png)
+<img width="1345" height="678" alt="silver_heart_disease_table" src="https://github.com/user-attachments/assets/2ba0015a-1b42-40fe-9372-4f47ce8d7f63" />
 
 ---
 
@@ -138,7 +140,7 @@ This table represents the **final cleaned clinical view** of patient data.
 ### Output Table
 - `gold_heart_disease`
 
-[Gold Heart Disease](gold_heart_disease.png)
+<img width="1341" height="694" alt="gold_heart_disease" src="https://github.com/user-attachments/assets/5691b098-306e-4368-9eca-37b1421916bf" />
 
 ---
 
@@ -161,7 +163,7 @@ Clinically meaningful features are engineered to enhance model performance and i
 ### Output Table
 - `gold_heart_feature_details`
 
-[Gold Heart Feature Details](gold_heart_feature_details.png)
+<img width="1324" height="572" alt="gold_heart_features_details 2" src="https://github.com/user-attachments/assets/b9e0e78b-f996-4006-9da4-643d59b4a8b2" />
 
 ---
 
@@ -177,7 +179,7 @@ This table converts clinical features into **numerical vectors** suitable for ma
 ### Output Table
 - `gold_heart_features`
 
-[Gold Heart Features](gold_heart_features.png)
+<img width="1221" height="553" alt="gold_heart_features" src="https://github.com/user-attachments/assets/0337b2b1-53d3-473f-8b7f-0604562b088b" />
 
 ---
 
@@ -198,8 +200,9 @@ This table converts clinical features into **numerical vectors** suitable for ma
 - Random Forest selected as the **champion model**
 - Achieved the highest AUC score
 
-[Logical Regression Model](logical_regression.png)
-[Random Forest Model](random_forest.png)
+<img width="1499" height="523" alt="logical regression " src="https://github.com/user-attachments/assets/e5f17ae6-f40b-407a-b073-f2d21b174709" />
+<img width="1502" height="604" alt="random_forest" src="https://github.com/user-attachments/assets/acc33139-8a94-495a-89da-15ebdf7c3c72" />
+
 ---
 
 ## 🔍 Feature Importance & Explainability
@@ -219,7 +222,7 @@ Feature importance analysis was performed to understand **clinical drivers of he
 - Supports clinical decision-making
 - Enhances transparency
 
-[Feature Importance](Feature importance chart.png)
+<img width="881" height="402" alt="Feature Importance chart" src="https://github.com/user-attachments/assets/11d1dd43-4e40-4f3a-b634-a6e4cce2f7da" />
 
 ---
 
@@ -239,7 +242,7 @@ Predictions are stored as a governed Delta table for analytics and reporting.
 ### Output Table
 - `gold_heart_risk_predictions`
 
-[Gold Heart Risk Prediction](gold_heart_risk_predictions.png)
+<img width="1321" height="612" alt="gold_hear_risk_predictions" src="https://github.com/user-attachments/assets/8a4ecbf0-6ebf-4e8a-b5ef-570d5e00fb4b" />
 
 ---
 
@@ -260,7 +263,7 @@ An interactive dashboard was built using **Databricks SQL**.
 - Supports data-driven healthcare decisions
 - Provides an executive-level overview
 
-[Final Dashboard](Final dashboards.png)
+<img width="1395" height="714" alt="Final dashboards" src="https://github.com/user-attachments/assets/23b9e757-85fc-4e67-8615-22c7421bb5e7" />
 
 ---
 
@@ -274,9 +277,10 @@ Based on model outputs and feature importance, AI-driven insights were generated
 
 Due to dashboard constraints, these insights are **documented and visualized externally**, ensuring clarity without compromising dashboard stability.
 
-[AI Insights 1](AI insights 1.png)
-[AI Insights 2](AI insights 2.png)
-[AI Insights 3](AI insights 3.png)
+<img width="974" height="371" alt="AI insights 1" src="https://github.com/user-attachments/assets/83ba37c2-1280-448b-a2e3-3c90366b364c" />
+<img width="926" height="446" alt="AI insights 2" src="https://github.com/user-attachments/assets/e0f48f1d-c26d-4afe-b2ea-a00b9b54b7b3" />
+<img width="917" height="382" alt="AI insights 3" src="https://github.com/user-attachments/assets/3cdd5fd5-a9b4-40a3-85f6-59303d587fc7" />
+
 ---
 
 ## ✅ Final Outcome
