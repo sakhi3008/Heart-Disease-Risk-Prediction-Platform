@@ -37,7 +37,8 @@ To design and implement a **scalable, explainable, and analytics-ready heart dis
 ## 📊 Dataset Description
 
 - **Dataset Name:** Cleveland Heart Disease Dataset  
-- **Source:** UCI Machine Learning Repository  
+- **Source:** UCI Machine Learning Repository
+- **Dataset Link:** https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci 
 - **Records:** 297 patients  
 - **Domain:** Healthcare & Life Sciences  
 
