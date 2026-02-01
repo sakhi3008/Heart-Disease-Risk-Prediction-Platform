@@ -67,7 +67,10 @@ The project follows the **Databricks Medallion Architecture**, ensuring scalabil
 - **Silver Layer:** Cleaned & standardized data  
 - **Gold Layer:** ML-ready features, predictions & analytics  
 - **ML Layer:** Model training, evaluation & explainability  
-- **Analytics Layer:** SQL dashboards  
+- **Analytics Layer:** SQL dashboards
+
+<img width="1293" height="287" alt="Notebook order" src="https://github.com/user-attachments/assets/70c876a0-31ad-4336-8a54-198a277daaf7" />
+
 
 ### 📌 Architecture Diagram
 
